@@ -1,0 +1,33 @@
+/*Grid properties for parent div*/
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin: 30px;
+    gap:3px;
+}
+.col{
+    background-color: blue;
+    padding:10px;
+    width:400px;
+    height:400px;
+      }
+    /*Background image effects and hover*/
+  .col:hover{
+      cursor: pointer;
+      background-image: url(https://images.unsplash.com/photo-1637371756702-bc9dc8dca298?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+     }
+.col:nth-child(odd){
+    background-color: burlywood;
+}
+.nested{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:3px;
+}
+.nested p{
+    border:1px solid black;
+    padding: 10px;
+    margin: 0;
+    height: 100px;
+}

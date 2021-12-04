@@ -1,0 +1,57 @@
+/*margin and padding*/
+*{
+    margin:0;
+    padding:0;
+}
+/*position properties for login main*/
+.login-main{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:400px;
+    height:400px;
+    border: 1px solid rgba(41, 40, 39, 0.685);
+    border-radius: 5px;
+}
+.login-main :hover{
+ box-shadow:0 0 5px rgba(100, 107, 95, 0.685);
+ transition: 0;
+}
+.login-page{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.inputs input{
+    width:200px;
+    padding:10px;
+    margin:5px 0;
+    border: 2px solid rgba(25, 200, 63, 0.5);
+    outline: none;
+    border-radius: 3px;
+    font-size: 16px;
+
+}
+.inputs input:focus{
+    box-shadow: 0 0 9px rgba(16, 19, 209, 0.685);
+}
+/*login button and hover design*/
+.login-btn button{
+    width:100%;
+    padding:5px;
+    margin:10px 0;
+    border:none;
+    background: rgba(16, 180, 209, 0.685);
+    color:rgb(50, 50, 50);
+    border-radius: 3px;
+    font-size: 16px;
+    letter-spacing: 3px;
+
+}
+.login-btn button:hover{
+    cursor:pointer;
+    background-color:rgba(63, 175, 100, 0.5);
+    transition: 1s;
+}
